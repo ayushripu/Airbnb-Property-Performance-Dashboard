@@ -238,7 +238,4 @@ Achievement	Details
 
 ✅ Predictive Analytics	AI-powered trend detection
 
-🎨 Dashboard Features
-
-<div align="center"> <img src="Screenshot%202026-06-24%20235509.png" alt="Power Query Data Model" width="90%" style="border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.15);"> <br> <sub>AI-powered data transformation pipeline in Power Query</sub> </div>
-
+---
