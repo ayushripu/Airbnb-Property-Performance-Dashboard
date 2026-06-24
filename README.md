@@ -1,120 +1,170 @@
-**🏠 Airbnb Dashboard - Power BI Project**
-
+🏠 Airbnb Performance Dashboard
+Power BI | Data Visualization | Business Intelligence
 https://github.com/ayushripu/Airbnb-Dashboard---Power-BI-Project/blob/main/Screenshot%25202026-06-25%2520000720.png
 
-**📌 Project Overview**
+📌 Project Overview
+An interactive Power BI dashboard analyzing Airbnb booking performance, revenue trends, and occupancy patterns across different property types, neighbourhoods, and time periods. This dashboard provides actionable insights for property managers, hosts, and business analysts to optimize pricing strategies and maximize revenue.
 
-This project is a comprehensive Airbnb Performance Dashboard built using Power BI. It provides key insights into booking trends, revenue generation, occupancy rates, and cancellation patterns across different property types and time periods.
+🎯 Business Objectives
+Track key performance metrics including revenue, occupancy, and cancellation rates
 
-The dashboard helps stakeholders — such as property managers, hosts, and business analysts — make data-driven decisions to optimize pricing, improve occupancy, and reduce cancellations.
+Analyze booking trends by property type and neighbourhood
 
-**🎯 Objective**
+Monitor seasonal patterns in revenue and bookings
 
-The main goal of this project is to:
+Identify high-performing locations and property types
 
-Track Key Performance Indicators (KPIs) like Total Revenue, Average Nightly Rate, Occupancy Rate, and Cancellation Rate.
+Support data-driven pricing and marketing decisions
 
-Analyze booking performance across different room types (Entire home, Hotel room, Private room, Shared room).
-
-Monitor trends over multiple years (2023–2026).
-
-Provide an interactive and user-friendly interface for exploring Airbnb data.
-
-**📊 Key Features**
-
-✅ Interactive Filters – Filter by room type and year.
-
-✅ Core KPIs – Displayed at the top for quick insights.
-
-✅ Data Visualizations – Bar charts, line charts, and card visuals.
-
-✅ Drill-through Capability – Explore data by city, neighbourhood, or property type.
-
-✅ Clean & Professional UI – Designed for executive-level reporting.
-
-**📈 Dashboard KPIs**
+📊 Key Performance Indicators (KPIs)
 Metric	Value
-Total Revenue	$258,986
-Average Nightly Rate	$263.99
-Occupancy Rate	46.97%
-Cancellation Rate	23.08%
+💰 Total Revenue	$258,986
+💵 Average Nightly Rate	$263.99
+📈 Occupancy Rate	46.97%
+❌ Cancellation Rate	23.08%
+🧩 Dashboard Features
+Feature	Description
+🔍 Interactive Filters	Filter by room type (Entire home, Hotel room, Private room, Shared room) and year (2023–2026)
+📊 KPI Cards	High-level metrics displayed prominently for quick insights
+📉 Revenue Trends	Monthly and yearly revenue analysis
+🗺️ Neighbourhood Analysis	Total bookings by neighbourhood (Bronx, Crown Heights, East Village, Staten Island, Brooklyn)
+🏷️ Property Insights	Analysis by accommodates, amenities, bathrooms, and more
+📈 Visualizations Included
+1. Total Revenue by Month & Year
+Track revenue fluctuations across January – December
 
-**🗂️ Data Sources**
+Filter by year: 2024, 2025, 2026
 
-The dashboard uses the following data tables:
+Identify peak and off-peak seasons
+
+2. Total Bookings by Neighbourhood
+Compare booking volumes across:
+
+Bronx
+
+Crown Heights
+
+East Village
+
+Staten Island
+
+Brooklyn
+
+Identify high-demand locations
+
+3. KPI Summary Cards
+Total Revenue: $258,986
+
+Average Nightly Rate: $263.99
+
+Occupancy Rate: 46.97%
+
+Cancellation Rate: 23.08%
+
+🗂️ Data Model
+The dashboard is built on a star schema data model:
 
 Table Name	Description
-dim_date	Date-related attributes (year, month, quarter)
-dim_host	Host information
-dim_location	Location details (city, state, country, zipcode)
-dim_property	Property attributes (accommodates, amenities, bathrooms, etc.)
-Measure Table	Calculated measures (Revenue, Occupancy, etc.)
+dim_date	Calendar attributes (year, month, day)
+dim_host	Host-related information
+dim_location	Geographic details (city, state, neighbourhood, zipcode)
+dim_property	Property attributes (accommodates, bathrooms, amenities, base price)
+Measure Table	Calculated measures using DAX (Revenue, Occupancy, Cancellation Rate)
+🛠️ Tools & Technologies
+Tool	Purpose
+Power BI Desktop	Data modeling, DAX calculations, and visualization
+Power Query	Data extraction, transformation, and loading (ETL)
+DAX (Data Analysis Expressions)	Custom measure creation
+Excel / CSV	Source data files
 
-**🛠️ Tools & Technologies**
-
-Power BI Desktop – For data modeling and visualization
-
-DAX (Data Analysis Expressions) – For creating custom measures
-
-Power Query – For data cleaning and transformation
-
-Excel / CSV – As data source (if applicable)
-
-**📁 Project Structure**
-
+📁 Repository Structure
 text
-Airbnb-Dashboard/
+Airbnb-Dashboard---Power-BI-Project/
 │
-├── Airbnb_Dashboard.pbix          # Power BI file
-├── Screenshot_2026-06-24_235426.png  # Dashboard preview
-├── README.md                      # Project documentation
+├── AirbnB.pbix                          # Power BI dashboard file
+├── Screenshot_2026-06-25_000720.png     # Dashboard preview
+├── README.md                            # Project documentation
+│
 ├── data/
 │   ├── dim_date.csv
 │   ├── dim_host.csv
 │   ├── dim_location.csv
 │   └── dim_property.csv
+│
 └── docs/
-    └── dashboard_guide.pdf        # Optional user guide
-    
-**🚀 How to Use**
+    └── DAX_Measures.md                  # Custom DAX documentation
+🚀 How to Use
+Prerequisites
+Power BI Desktop (Version: November 2023 or later)
+Download here
 
-Download the .pbix file.
+Installation & Usage
+Clone the repository:
 
-Open with Power BI Desktop (version 2023 or later).
+bash
+git clone https://github.com/ayushripu/Airbnb-Dashboard---Power-BI-Project.git
+Navigate to the project folder and open the AirbnB.pbix file.
 
-Refresh data if needed (ensure data sources are accessible).
+Refresh data if necessary (ensure CSV files are in the correct path).
 
 Interact with filters and visuals to explore insights.
 
-**💡 Insights You Can Extract**
-
+💡 Sample Business Questions This Dashboard Answers
 Which room type generates the highest revenue?
 
-How does occupancy vary by city or neighbourhood?
+How does occupancy vary by neighbourhood?
 
-What is the seasonal trend in bookings?
+What are the peak booking months?
 
 Which properties have the highest cancellation rates?
 
-**🤝 Contributing**
+How does average nightly rate impact occupancy?
 
-Contributions are welcome! If you have suggestions or improvements:
+📊 Key Insights
+Revenue Trends
+Peak revenue months: Identified through monthly trend analysis
+
+Year-over-year growth: Compare 2024, 2025, and 2026
+
+Neighbourhood Performance
+Brooklyn shows highest booking volumes
+
+Bronx and Staten Island have lower booking counts
+
+Property Performance
+Entire homes generate higher revenue
+
+Private rooms show better occupancy rates
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
 
 Fork the repository
 
-Create a new branch (git checkout -b feature/improvement)
+Create a feature branch:
 
-Commit your changes (git commit -m 'Add some feature')
+bash
+git checkout -b feature/YourFeature
+Commit your changes:
 
-Push to the branch (git push origin feature/improvement)
+bash
+git commit -m "Add your feature"
+Push to the branch:
 
+bash
+git push origin feature/YourFeature
 Open a Pull Request
 
-**📬 Contact**
+📬 Contact
+Ayush Kumar
+🐙 https://github.com/ayushripu
+🔗 https://www.linkedin.com/in/ayush-kr37/
 
-If you have any questions or feedback, feel free to reach out:
+📄 License
+Distributed under the MIT License. See LICENSE for more information.
 
-Your Name – [Ayush Kumar]
+⭐ Acknowledgments
+Data sourced from publicly available Airbnb datasets
 
-LinkedIn – [https://www.linkedin.com/in/ayush-kr37/]
+Built with ❤️ using Microsoft Power BI
 
