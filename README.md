@@ -1,6 +1,6 @@
 **🏠 Airbnb Dashboard - Power BI Project**
 
-https://Screenshot%25202026-06-24%2520235426.png
+Screenshot 2026-06-25 000720.png
 
 **📌 Project Overview**
 
