@@ -1,6 +1,6 @@
 **🏠 Airbnb Dashboard - Power BI Project**
 
-https://github.com/ayushripu/-Airbnb-Dashboard---Power-BI-Project/blob/main/Screenshot%202026-06-25%20000720.png
+https://github.com/ayushripu/Airbnb-Dashboard---Power-BI-Project/blob/main/Screenshot%25202026-06-25%2520000720.png
 
 **📌 Project Overview**
 
@@ -23,9 +23,13 @@ Provide an interactive and user-friendly interface for exploring Airbnb data.
 **📊 Key Features**
 
 ✅ Interactive Filters – Filter by room type and year.
+
 ✅ Core KPIs – Displayed at the top for quick insights.
+
 ✅ Data Visualizations – Bar charts, line charts, and card visuals.
+
 ✅ Drill-through Capability – Explore data by city, neighbourhood, or property type.
+
 ✅ Clean & Professional UI – Designed for executive-level reporting.
 
 **📈 Dashboard KPIs**
